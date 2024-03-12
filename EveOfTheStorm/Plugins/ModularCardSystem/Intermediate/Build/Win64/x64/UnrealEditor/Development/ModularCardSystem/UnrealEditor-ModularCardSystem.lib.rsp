@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ModularCardSystem.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\EveOfTheStormEditor\Development\Engine\SharedPCH.Engine.Cpp17.h.obj"
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Plugins\ModularCardSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModularCardSystem\Module.ModularCardSystem.cpp.obj"
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Plugins\ModularCardSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModularCardSystem\Default.rc2.res"
+/OUT:"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Plugins\ModularCardSystem\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModularCardSystem\UnrealEditor-ModularCardSystem.lib"

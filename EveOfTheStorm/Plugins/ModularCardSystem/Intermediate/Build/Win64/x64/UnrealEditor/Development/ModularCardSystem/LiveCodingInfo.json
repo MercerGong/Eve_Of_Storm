@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModularCardSystem.cpp.obj": [
+			"Card.gen.cpp.obj",
+			"CardDefinition.gen.cpp.obj",
+			"CardPack.gen.cpp.obj",
+			"MCSCard.gen.cpp.obj",
+			"MCSCardRegistrySubsystem.gen.cpp.obj",
+			"MCSCardSave.gen.cpp.obj",
+			"MCSCardWidget.gen.cpp.obj",
+			"MCSGameInstance.gen.cpp.obj",
+			"MCSSettings.gen.cpp.obj",
+			"ModularCardSystem.init.gen.cpp.obj",
+			"MSCRandomSubsystem.gen.cpp.obj",
+			"MCSCard.cpp.obj",
+			"MCSCardRegistrySubsystem.cpp.obj",
+			"MCSGameInstance.cpp.obj",
+			"MCSSettings.cpp.obj",
+			"ModularCardSystem.cpp.obj",
+			"MSCRandomSubsystem.cpp.obj",
+			"MCSCardSave.cpp.obj",
+			"CardDefinition.cpp.obj",
+			"MCSCardWidget.cpp.obj"
+		]
+	}
+}

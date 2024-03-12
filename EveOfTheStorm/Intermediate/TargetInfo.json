@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EveOfTheStorm",
+			"Path": "..\\Source\\EveOfTheStorm.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EveOfTheStormEditor",
+			"Path": "..\\Source\\EveOfTheStormEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

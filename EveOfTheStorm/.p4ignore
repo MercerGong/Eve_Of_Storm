@@ -1,0 +1,8 @@
+.idea/*
+.vs/*
+Binaries/*
+Build/*
+Intermediate/*
+DerivedDataCache/*
+Saved/*
+EveOfTheStorm.sln

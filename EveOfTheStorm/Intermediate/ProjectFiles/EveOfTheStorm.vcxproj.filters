@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EveOfTheStorm.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EveOfTheStorm.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EveOfTheStormEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.p4ignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularCardSystem">
+      <UniqueIdentifier>{D0C060C4-B230-3B70-A929-AFAF05DB0364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularCardSystem\Source">
+      <UniqueIdentifier>{22D11606-B905-3812-B8FE-B19C32B910A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem">
+      <UniqueIdentifier>{F89624CF-FAD1-310D-B14E-0C2AC4BC7530}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\ModularCardSystem.Build.cs">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem</Filter>
+    </None>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Private">
+      <UniqueIdentifier>{C03BB089-18A9-3B88-8062-7AC35641CA5D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\MCSCardRegistrySubsystem.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\MCSGameInstance.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\MCSSettings.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\ModularCardSystem.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\MSCRandomSubsystem.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Actors">
+      <UniqueIdentifier>{9BBC92EF-1D00-3786-95CF-256F0D6ECB7E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Actors\MCSCard.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Saves">
+      <UniqueIdentifier>{56F8F725-73B9-3300-B90E-DA2C4549B488}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Saves\MCSCardSave.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Saves</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Types">
+      <UniqueIdentifier>{86F1BD2B-D37B-33E9-9743-9B7441EA1EF1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Types\CardDefinition.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private\Types</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Private\UI">
+      <UniqueIdentifier>{E586B755-9D1F-3743-8927-450302C60829}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Private\UI\MCSCardWidget.cpp">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Public">
+      <UniqueIdentifier>{59C8A016-A91C-3221-95E5-7001C535F6F5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\MCSCardRegistrySubsystem.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\MCSGameInstance.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\MCSSettings.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\ModularCardSystem.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\MSCRandomSubsystem.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Actors">
+      <UniqueIdentifier>{763A35D6-7E24-3D98-A3C2-DFAD785668B6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Actors\MCSCard.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Saves">
+      <UniqueIdentifier>{EC9C9251-5DF0-3167-9775-41BCC12864C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Saves\MCSCardSave.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Saves</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types">
+      <UniqueIdentifier>{44F853A7-4CBB-3DBA-A622-70979F6CC426}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types\Card.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types\CardDefinition.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types\CardPack.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public\Types</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ModularCardSystem\Source\ModularCardSystem\Public\UI">
+      <UniqueIdentifier>{CFFDF4BF-043B-3AA8-997A-3E881E2F5747}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularCardSystem\Source\ModularCardSystem\Public\UI\MCSCardWidget.h">
+      <Filter>Plugins\ModularCardSystem\Source\ModularCardSystem\Public\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\ModularCardSystem\ModularCardSystem.uplugin">
+      <Filter>Plugins\ModularCardSystem</Filter>
+    </None>
+    <Filter Include="Plugins\ModularCardSystem\Resources">
+      <UniqueIdentifier>{E4283414-A6A9-3DB0-A9FE-8A42F6233466}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularCardSystem\Resources\Icon128.png">
+      <Filter>Plugins\ModularCardSystem\Resources</Filter>
+    </None>
+    <Filter Include="Source\EveOfTheStorm">
+      <UniqueIdentifier>{42C68DC1-ED96-3B88-AC32-064DFAD8A2E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EveOfTheStorm\EveOfTheStorm.Build.cs">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\EveOfTheStorm.cpp">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\EveOfTheStorm.h">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\EveOfTheStormCharacter.cpp">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\EveOfTheStormCharacter.h">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\EveOfTheStormGameMode.cpp">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\EveOfTheStormGameMode.h">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\EveOfTheStormPlayerController.cpp">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\EveOfTheStormPlayerController.h">
+      <Filter>Source\EveOfTheStorm</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Private">
+      <UniqueIdentifier>{61C3669D-B29A-3DFB-8AE8-E73AC3A1C1EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EveOfTheStorm\Private\Core">
+      <UniqueIdentifier>{980AA9AB-D79E-3DD2-9214-13852F2E99FB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\ESCharacterBase.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core</Filter>
+    </ClCompile>
+    <Filter Include="Source\EveOfTheStorm\Private\Core\Definition">
+      <UniqueIdentifier>{0ADD7030-9C08-39A4-B27B-0551D1CCDD1F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardBuff.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardEffect.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_Building.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_CardDropping.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_CardEffects.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_CardUpgrade.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_Ground.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_GroundBuilding.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Definition\ESCardFragment_Policy.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Definition</Filter>
+    </ClCompile>
+    <Filter Include="Source\EveOfTheStorm\Private\Core\Game">
+      <UniqueIdentifier>{87C9A18D-0414-3F18-A6E0-172CCFBE09A6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Game\ESDefaultGameMode.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Game\ESGameHelper.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Game\ESGameInstance.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Game\ESResourceSystem.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\EveOfTheStorm\Private\Core\Grid">
+      <UniqueIdentifier>{02D05B48-03F1-3F48-9B77-089B0141A011}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\ESBuildingActor.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\ESBuildingManagerActor.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\ESBuildingSystem.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\ESGridActor.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\ESGridHelper.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\ESGridSystem.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Private\Core\Grid\FastNoiseLite.h">
+      <Filter>Source\EveOfTheStorm\Private\Core\Grid</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Private\Core\Player">
+      <UniqueIdentifier>{05BA3E5E-90BA-3707-B76E-3F0703DE3B9A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Player\ESCardAction.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Player\ESPlayerCardPlayComponent.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Player\ESPlayerController.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EveOfTheStorm\Private\Core\Player\ESPlayerState.cpp">
+      <Filter>Source\EveOfTheStorm\Private\Core\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\EveOfTheStorm\Public">
+      <UniqueIdentifier>{647250AE-BFB6-3EAC-B59C-F00BA85DAED8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EveOfTheStorm\Public\Core">
+      <UniqueIdentifier>{DD9F6EAF-C072-3671-BA6F-876271ED8AFD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\ESCharacterBase.h">
+      <Filter>Source\EveOfTheStorm\Public\Core</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Public\Core\Definition">
+      <UniqueIdentifier>{7C8C28D3-D325-3A7E-B5D2-A47CF9663BE0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardBuff.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardEffect.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_Building.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_CardDropping.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_CardEffects.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_CardUpgrade.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_Ground.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_GroundBuilding.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Definition\ESCardFragment_Policy.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Definition</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Public\Core\Game">
+      <UniqueIdentifier>{D2954099-EEBD-312C-BEDB-149A8B41BAE5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Game\ESDefaultGameMode.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Game\ESGameHelper.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Game\ESGameInstance.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Game\ESResourceSystem.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Public\Core\Grid">
+      <UniqueIdentifier>{4B1B8AF5-F94A-32AC-9111-622DBD2BF2C6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESBuildingActor.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESBuildingManagerActor.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESBuildingSystem.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESGridActor.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESGridHelper.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESGridSystem.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Grid\ESGridType.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Grid</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Public\Core\Player">
+      <UniqueIdentifier>{B53C52AA-E087-3591-8A0B-33F539565989}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Player\ESCardAction.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Player\ESPlayerCardPlayComponent.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Player\ESPlayerController.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Player\ESPlayerState.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\EveOfTheStorm\Public\Core\Types">
+      <UniqueIdentifier>{0BDF5210-73B0-3C8F-822C-40FAD432B63B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Types\CardType.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Types\GroundType.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\EveOfTheStorm\Public\Core\Types\ResourceType.h">
+      <Filter>Source\EveOfTheStorm\Public\Core\Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

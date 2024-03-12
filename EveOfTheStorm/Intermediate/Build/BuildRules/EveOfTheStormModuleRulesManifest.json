@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\yanni\\Perforce\\MerGong_ROG_7490\\EveOfTheStorm\\Source\\EveOfTheStorm\\EveOfTheStorm.Build.cs",
+		"C:\\Users\\yanni\\Perforce\\MerGong_ROG_7490\\EveOfTheStorm\\Plugins\\ModularCardSystem\\Source\\ModularCardSystem\\ModularCardSystem.Build.cs",
+		"C:\\Users\\yanni\\Perforce\\MerGong_ROG_7490\\EveOfTheStorm\\Source\\EveOfTheStorm.Target.cs",
+		"C:\\Users\\yanni\\Perforce\\MerGong_ROG_7490\\EveOfTheStorm\\Source\\EveOfTheStormEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

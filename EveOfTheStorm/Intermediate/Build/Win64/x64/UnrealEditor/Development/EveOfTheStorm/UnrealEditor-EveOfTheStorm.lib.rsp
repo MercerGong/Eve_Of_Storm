@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EveOfTheStorm.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\EveOfTheStormEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp17.h.obj"
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\UnrealEditor\Development\EveOfTheStorm\Module.EveOfTheStorm.1.cpp.obj"
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\UnrealEditor\Development\EveOfTheStorm\Module.EveOfTheStorm.2.cpp.obj"
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\UnrealEditor\Development\EveOfTheStorm\Module.EveOfTheStorm.3.cpp.obj"
+"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\UnrealEditor\Development\EveOfTheStorm\Default.rc2.res"
+/OUT:"C:\Users\yanni\Perforce\MerGong_ROG_7490\EveOfTheStorm\Intermediate\Build\Win64\x64\UnrealEditor\Development\EveOfTheStorm\UnrealEditor-EveOfTheStorm.lib"
